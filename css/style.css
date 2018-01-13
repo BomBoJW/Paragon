@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+.main {
+    margin: 0 auto;
+    width: 940px;
+}
+		  .zerogrid {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+}
+		  #content2 {
+    padding-bottom: 50px;
+}
+		  .wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+		  zerogrid .col-1-4 {
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+		  .zerogrid .wrap-col {
+    margin: 10px;
+}
+		  .list1 {
+    background: url(images/line_hor1.png) 10px 0 no-repeat;
+    padding-top: 1px;
+}
+
+
+.list1{background:url(../images/line_hor1.png) 10px 0 no-repeat;padding-top:1px}
+.list1 li{background:url(../images/line_hor1.png) 10px bottom no-repeat;line-height:29px}
+.list1 a{color:#696969;text-decoration:none;font-style:normal;padding-left:14px;background:url(../images/marker_1.gif) 0 6px no-repeat}
+.list1 a:hover{color:#fff}
+.address{background:url(../images/line_hor1.png) 0px 0 no-repeat;padding-top:1px}
+.address li{background:url(../images/line_hor1.png) 0px bottom no-repeat;line-height:29px;font-style:normal}
+.address span{padding-left:4px;float:left;width:62px}
+.address a{color:#fff}
+#icons{background:url(../images/line_hor1.png) 23px 0 no-repeat;padding-top:1px}
+#icons li{background:url(../images/line_hor1.png) 23px bottom no-repeat;line-height:29px}
+#icons a{color:#696969;text-decoration:none;font-style:normal;display:inline-block}
+#icons img{float:left;margin-right:9px;margin-top:5px}
+#icons a:hover{color:#fff}
+ol, ul {
+	list-style: none;
+	 background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+		padding: 0;
+		outline: 0;
+    vertical-align: top;
+}
